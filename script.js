@@ -7,7 +7,7 @@ function gerar () {
     } else {
         let n = Number(num.value)
         tab.innerText = ''
-
+        tab.removeAttribute('hidden')
         for (i = 1;i <= 10; i++) {
             let item = document.createElement('option')
             item.text += `${n} X ${i} = ${n*i}`
