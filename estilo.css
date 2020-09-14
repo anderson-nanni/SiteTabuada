@@ -1,0 +1,47 @@
+body {
+    background: #3199c9;
+    font-family: Verdana;
+    text-align: center;
+
+}
+footer,
+header {
+    color: white;
+}
+
+footer {
+    margin: 10px;
+}
+
+section {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.322);
+    margin: auto;
+    width: 500px;
+    height: 400px;
+
+}
+section div {
+    margin: 25px;
+}
+section p {
+    font:  14pt Verdana;
+    padding: 15px;
+}
+
+#img {
+    padding-bottom: 20px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+#input {
+    padding-top: 20px;
+}
+
+#tab {
+    margin-top: 50px;
+    font-size: 22px;
+}
