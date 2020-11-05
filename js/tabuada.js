@@ -1,4 +1,4 @@
-function gerar () {
+function tabuada () {
     let num = document.getElementById('numero')
     let tab = document.getElementById('tab')
 
